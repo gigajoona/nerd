@@ -1,3 +1,12 @@
 <%# provide(:title, 'Home') %>
-<h1>Home</h1>
-<p>Because, apparently, being a geek is not enough for Joona. He needs to be a nerd too!</p>
+<div class="center hero-unit">
+  <h1>Nerd App Home</h1>
+
+  <h2>
+    Because, apparently, being a geek is not enough for Joona. He needs to be a nerd too!
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>

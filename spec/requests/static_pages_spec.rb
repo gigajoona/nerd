@@ -5,9 +5,7 @@ require 'spec_helper'
 describe "StaticPages" do
   
   subject { page }
-  
-  #let(:base_title) { "Nerd App" } # setting the base title
-  
+    
   describe "Home page" do
     before { visit root_path } 
     
